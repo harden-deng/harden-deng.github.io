@@ -1,0 +1,11 @@
+// 主题颜色
+$theme-color: #4979c0;
+$theme-color-light: lighten($theme-color, 10%);
+$theme-color-dark: darken($theme-color, 10%);
+
+// 或者使用 CSS 变量    
+:root {
+  --theme-color: #4979c0;
+  --theme-color-light: #acb9ca;
+  --theme-color-dark: #3b66a3;
+}

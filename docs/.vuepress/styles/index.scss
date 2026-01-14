@@ -1,0 +1,14 @@
+@media (min-width: 997px) {
+    :root {
+        --content-width: 66%
+    }
+}
+
+// 去除首页标题渐变效果，使用纯色
+.vp-hero-title {
+    background: none !important;
+    -webkit-background-clip: unset !important;
+    background-clip: unset !important;
+    -webkit-text-fill-color: unset !important;
+    color: var(--theme-color, #4979c0) !important;
+}
